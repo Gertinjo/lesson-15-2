@@ -1,0 +1,104 @@
+.navbar{
+    overflow: hidden;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar a{
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropdown .dropbtn{
+    margin: 0;
+    font-size: 16px;
+    background-color: inherit;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-family: inherit;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: bisque;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(254, 217, 172);
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.column {
+    float: left;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+}
+
+.column a {
+    float:  none;
+    color: black;
+    font-weight: bold;
+    padding:10px ;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.column a:hover{
+    background-color: rgb(171, 213, 250);
+}
+
+
+
+
+
+#vertical-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    background-color: lightcoral;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#vertical-menu a {
+     display: block;
+     color: black;
+     padding: 10px;
+     text-decoration: none;
+}
+
+#vertical-menu li a.actic {
+    background-color: pink;
+    color: black;
+}
+
+#vertical-menu li a:hover:not(.activ){
+    background-color: gainsboro;
+    color: white;
+}
